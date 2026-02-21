@@ -1,0 +1,27 @@
+# Data (MIMIC and other datasets)
+physionet.org/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Local / extra files
+instructions.txt
+*.csv
+*.csv.gz
