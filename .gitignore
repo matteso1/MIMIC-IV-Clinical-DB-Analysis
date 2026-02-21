@@ -1,5 +1,14 @@
-# Data (MIMIC and other datasets)
-physionet.org/
+# Data (MIMIC) — we commit only hosp CSVs needed by the notebook (see repo)
+physionet.org/*
+!physionet.org/files/
+physionet.org/files/*
+!physionet.org/files/mimic-iv-demo/
+physionet.org/files/mimic-iv-demo/*
+!physionet.org/files/mimic-iv-demo/2.2/
+physionet.org/files/mimic-iv-demo/2.2/*
+!physionet.org/files/mimic-iv-demo/2.2/hosp/
+!physionet.org/files/mimic-iv-demo/2.2/hosp/diagnoses_icd.csv
+!physionet.org/files/mimic-iv-demo/2.2/hosp/d_icd_diagnoses.csv
 
 # Python
 .venv/
@@ -25,3 +34,6 @@ Thumbs.db
 instructions.txt
 *.csv
 *.csv.gz
+# Exception: data files used by analysis.ipynb (same path so code works when cloned)
+!physionet.org/files/mimic-iv-demo/2.2/hosp/diagnoses_icd.csv
+!physionet.org/files/mimic-iv-demo/2.2/hosp/d_icd_diagnoses.csv
